@@ -13,7 +13,7 @@
             </Grid.RowDefinitions>
         </Grid>
         <Label  Margin="20,40,20,20"
-                Text="SupermercadoMercaMas" 
+                Text="Supermercado MercaMas" 
                 HorizontalTextAlignment="Center"          
                 Grid.Row="0"></Label>
         <Image Source="dado.png"
