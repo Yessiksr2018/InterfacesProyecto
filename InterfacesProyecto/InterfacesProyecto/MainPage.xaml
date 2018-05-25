@@ -17,7 +17,7 @@
                 Text="Supermercado MercaMas" 
                 HorizontalTextAlignment="Center"
                 Grid.Row="0"></Label>
-            <Image Source="icon.png"
+            <Image Source="dado.png"
                Grid.Row="1"></Image>
             <Image Source="mercamas.png"
                Grid.Row="1"
