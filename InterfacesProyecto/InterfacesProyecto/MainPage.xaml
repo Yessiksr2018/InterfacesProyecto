@@ -1,21 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿pp0999999999<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:InterfacesProyecto"
              x:Class="InterfacesProyecto.MainPage">
 
-    <StackLayout>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-        </Grid>
-        <Label  Margin="20,40,20,20"
+    
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Label  Margin="20,40,20,20"
                 Text="Supermercado MercaMas" 
-                HorizontalTextAlignment="Center"          
+                HorizontalTextAlignment="Center"
                 Grid.Row="0"></Label>
-    </StackLayout>
+            <Image Source="icon.png"
+               Grid.Row="1"></Image>
+            <Image Source="mercamas.png"
+               Grid.Row="1"
+            ></Image>
+        </StackLayout>
 
 </ContentPage>
