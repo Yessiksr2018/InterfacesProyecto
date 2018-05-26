@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterfacesProyecto.Comprar">
+    <TableView BindingContext="{Binding Source={StaticResource Compra}}" 
+               Intent="Form"
+               HasUnevenRows="True">
+        <TableSection Title="Realizando Compra">
+            <EntryCell x:Name="entTotal"
+                       Label="Total"
+                       Text="Agregando"
+                       >
+            </EntryCell>
+            <EntryCell x:Name="entTotal"
+                       Label="Total"
+                       Text="Eliminando"
+                       >
+            </EntryCell>
+            <EntryCell x:Name="TotalCompra"
+                       Label="Total"
+                       Text="Agregando" >
+            </EntryCell>
+
+            <TextCell x:Name="txtTotalPropina"
+                      Text="Propina total"
+                      Detail="{Binding Compra.TotalCompra}"
+                      >
+            </TextCell>
+        </TableSection>
+
+        <TableSection Title="Resultados">
+            <TextCell x:Name="txtTotalPropina"
+                      Text="Propina total"
+                      Detail="{Binding Compra.TotalCompra}"
+                      >
+            </TextCell>
+        </TableSection>
+    </TableView>
+</ContentPage>
